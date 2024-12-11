@@ -54,6 +54,7 @@ function resetAll() {
 
   resultText.textContent = '';
   resetSelected();
+  removeConfetti();
 }
 
 window.resetAll = resetAll;
